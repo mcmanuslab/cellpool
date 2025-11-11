@@ -6,3 +6,5 @@ To reproduce figures in the manuscript, download the cellPool Docker container f
 docker pull docker://krriisshhna/cellpool:latest
 nextflow run 10.maxproj_and_vigcorr.nf -with-singularity cellpool.sif -params-file 00.config/config.json
 ```
+
+See [Nextflow documentation](https://www.nextflow.io/docs/latest/index.html) for more parameter options. 
